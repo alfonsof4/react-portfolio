@@ -28,6 +28,16 @@ function App() {
         </>
       )}
 
+      {contactSelected ? (
+        <>
+          <Contact
+            setContactSelected={setContactSelected}
+          />
+        </>) : (
+          <>
+          </>
+      )}
+
       
     </div>
   )
