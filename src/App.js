@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import Nav from './components/Nav'
+import Homepage from './components/Homepage'
 import Contact from './components/Contact'
 import About from './components/About'
 import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <Homepage
         aboutSelected={aboutSelected}
         setAboutSelected={setAboutSelected}
         contactSelected={contactSelected}
@@ -37,10 +38,10 @@ function App() {
           <>
           </>
       )}
-
+      <Footer />
       
     </div>
-  )
+  );
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Nav = (props) => {
+const Homepage = (props) => {
   const {
     setAboutSelected,
     setContactSelected
@@ -8,9 +8,14 @@ const Nav = (props) => {
 
   return (
     <header>
+      <style>
+        ul.no-bullets
+      </style>
+      <div className='title'>
       <p>Alfonso Fernandez</p>
+      </div>
       <nav>
-        <ul>
+        <ul class="no-bullets">
           <li>
             <a href="#projects">
               <span onClick={() => setAboutSelected(false)}>Projects</span>
@@ -31,4 +36,4 @@ const Nav = (props) => {
     </header>
   )
 }
-export default Nav
+export default Homepage

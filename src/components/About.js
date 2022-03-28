@@ -1,15 +1,18 @@
 import React from 'react'
-// import Selfie from '../../assets/selfie.jpg;
+import Biking from '../assets/biking.jpg'
 
 const About = (props) => {
-    const { setContactSelected } = props;
+    //const { setContactSelected } = props;
 
     return (
         <section className='about-container'>
+    <style>
+        ul.no-bullets
+      </style>
             <div>
                 <p>Hello, my name is Alfonso Fernandez, I am a junior software developer just 6 months into my journey of becoming a software engineer and web developer</p>
-                <p>California born, Texas raised</p>
-                <p>My other hobbies include the gym, traveling, discovering new music, and collecting sneakers</p>
+                <p>California born, Texas raised!</p>
+                <p>My other hobbies include the gym, traveling, discovering new music, and collecting sneakers👟🏋️🎵✈️</p>
                 <p>So far my tech stack includes:</p>
                 <ul className='stack-list'>
                     <li>HTML, CSS, JavaScript</li>
@@ -19,13 +22,13 @@ const About = (props) => {
                     <li>React</li>
                 </ul>
                 <p>Education</p>
-                <ul>
+                <ul className='stack-list'>
                     <li>University of Texas at San Antonio: Pursuing Bachelors Degree in Public Health</li>                   
                 </ul>
-                <button className='about-button' onClick={() => setContactSelected(true)}>Contact me here!</button>
+                {/* <button className='about-button' onClick={() => setContactSelected(true)}>send me an email</button> */}
             </div>
             <div>
-                {/* <img src{Me} className="selfie" alt="selfie" */}
+            <img src={Biking} className="biking" alt="me on a beach crusier" />
             </div>
         </section>
     )
