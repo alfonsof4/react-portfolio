@@ -72,7 +72,7 @@ const ContactForm = (props) => {
                 <a>resume</a> 
                 
             </form>
-            <p>contact link in footer</p>
+            <p>more contacts below</p>
         </section>
     )
 }
