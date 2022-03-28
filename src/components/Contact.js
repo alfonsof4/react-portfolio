@@ -69,7 +69,7 @@ const ContactForm = (props) => {
                     </div>
                 )}
                 <button type='submit' className='request-button'>Send</button>
-                <a className='resume-button' target="_blank" rel="noreferrer" href="">Resume(pdf)</a> 
+                <a>resume</a> 
                 
             </form>
             <p>contact link in footer</p>
