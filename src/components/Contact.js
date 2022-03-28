@@ -48,7 +48,7 @@ const ContactForm = (props) => {
                 <div>
                     <h2>Contact Me here!</h2>
                 </div>
-                <button className='close-button' onClick={() => setContactSelected(false)}>X</button>
+                <button className='close-button' onClick={() => setContactSelected(false)}>maybe later</button>
             </div>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
@@ -69,7 +69,7 @@ const ContactForm = (props) => {
                     </div>
                 )}
                 <button type='submit' className='request-button'>Send</button>
-                <a className='resume-button' target="_blank" >Resume</a> 
+                <a className='resume-button' target="_blank" rel="noreferrer" href="">Resume(pdf)</a> 
                 
             </form>
             <p>contact link in footer</p>
