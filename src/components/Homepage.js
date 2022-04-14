@@ -15,7 +15,7 @@ const Homepage = (props) => {
       <p>Alfonso Fernandez</p>
       </div>
       <nav>
-        <ul class="no-bullets">
+        <ul>
           <li>
             <a href="#projects">
               <span onClick={() => setAboutSelected(false)}>Projects</span>

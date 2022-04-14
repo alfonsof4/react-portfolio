@@ -7,7 +7,7 @@ const Modal = ({ onClose, currentPhoto }) => {
         <div className="modal-backdrop">
             <div className='modal-container'>
                 <h3 className="modal-title">{name}</h3>
-                {/* add images */}
+                <img src={require(`../assets/projects/${index}.jpg`).default} alt={caption} />
                 <p>{description}</p>
                 <p>Stack/Dependecies: {stack}</p>
                 <p>My Role: {role}</p>

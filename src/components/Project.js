@@ -11,7 +11,26 @@ const Project = () => {
             caption: 'TK-0',
             github: "https://github.com/Rehtribution/p2-TK0",
             deployment: "https://timekiller-0.herokuapp.com/"
-        }
+        },
+        {
+            name: "JAM",
+            description: 'A task manager that allows you to sign up, log and keep track of tasks, a calculator feature to manage payments, and news to keep up with what happens in the world!',
+            stack: 'HTML, CSS, JavaScript, React, Mongoose, MongoDB, bootstrap',
+            role: 'adding calculator function, front end, nav bar',
+            caption: 'JAM',
+            github: "https://github.com/jennyk1989/jam",
+            deployment: "https://ancient-lake-76105.herokuapp.com/"
+        },
+        {
+            name: "CINEMATICS",
+            description: 'A site that allows you to search for new movies and find the closest showing to you!',
+            stack: 'HTML, CSS, JavaScript, Foundation, Movie and Gracenote API',
+            role: 'incorporate API function, front end',
+            caption: 'CINEMATICS',
+            github: "https://github.com/alfonsof4/CINEMANIACS",
+            deployment: "no available yet"
+        },
+
     ]
 
     const [isModalOpen, setIsModalOpen] = useState(false)
@@ -35,7 +54,7 @@ const Project = () => {
                         >
                             {image.caption}</p>
                         <img
-                            //src={require(`../../src/assets/projects${i}.jpg`).default}
+                            src={require(`../assets/projects${i}.jpg`).default}
                             alt={image.name}
                         />
                     </div>

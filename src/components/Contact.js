@@ -69,7 +69,7 @@ const ContactForm = (props) => {
                     </div>
                 )}
                 <button type='submit' className='request-button'>Send</button>
-                <a>resume</a> 
+                {/* <a>resume would go here</a>  */}
                 
             </form>
             <p>more contacts below</p>
