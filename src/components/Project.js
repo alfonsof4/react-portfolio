@@ -28,7 +28,7 @@ const Project = () => {
             role: 'incorporate API function, front end',
             caption: 'CINEMATICS',
             github: "https://github.com/alfonsof4/CINEMANIACS",
-            deployment: "no available yet"
+            deployment: "not ready yet"
         },
 
     ]
@@ -54,7 +54,7 @@ const Project = () => {
                         >
                             {image.caption}</p>
                         <img
-                            src={require(`../assets/projects${i}.jpg`).default}
+                            src={require(`../assets/projects/${i}.jpg`).default}
                             alt={image.name}
                         />
                     </div>
